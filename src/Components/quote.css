@@ -1,0 +1,66 @@
+.quote-wrapper {
+    max-width: 45vw;
+    background-color: var(--color);
+    border-radius: 3px;
+    margin: 11rem auto;
+    font-family: 'Raleway';
+    font-size:x-large;
+    padding: 2rem 3rem;
+}
+
+.quote {
+    display: flex;
+    align-items: first baseline;
+    overflow: hidden;
+    word-break:keep-all;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+.author {
+    text-align: end;
+    margin-bottom: 2em;
+    font-size: 0.75em;
+    color: white;
+}
+
+.fb-twitter-wrap {
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    color: white;
+    background-color: var(--color) !important;
+    padding: 10px;
+    width: 2.5em;
+    text-align: center;
+    border-radius: 3px;
+    font-size: large;
+    cursor: pointer;
+    margin: 0 0.2em;
+    border: 1px solid white;
+}
+
+.last-line-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    padding: .5rem 1rem;
+    color: white;
+    background-color: var(--color) !important;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 1em;
+    border: 1px solid white;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
