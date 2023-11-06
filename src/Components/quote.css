@@ -8,6 +8,16 @@
     padding: 2rem 3rem;
 }
 
+@media screen and (max-width: 750px) {
+    .quote-wrapper {
+        max-width: 750px;
+        text-align: center;
+        padding: 1em;
+    }
+    .fb-twitter-wrap {
+        margin: .5em;
+    }
+}
 .quote {
     display: flex;
     align-items: first baseline;
@@ -32,6 +42,13 @@
     align-items: flex-start;
 }
 
+@media (max-width: 300px){
+    .fb-twitter-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .icon {
     color: white;
     background-color: var(--color) !important;
@@ -48,6 +65,14 @@
 .last-line-wrap {
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 350px){
+    .last-line-wrap {
+        flex-direction: column;
+        align-items: center;
+        margin: .5em;
+    }
 }
 
 .button {
